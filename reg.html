@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+input,select
+{
+ 
+border: none;
+border-bottom: 2px solid red;
+height:25px;
+}
+body{
+background-color:#32a88f;
+}
+form
+{ 
+ align-content: space-evenly;
+margin-left:556px;
+top:100px;
+}
+label
+{
+            display: inline-block;
+            text-align: right;
+            width: 150px;
+            vertical-align: top;
+}
+</style>
+</head>
+<body>
+<h1 align="center" style="color:pink"> <b>Registration Form</b></h1><br>
+<form name="regform" method="post">
+<label>FIRST NAME:</label>
+    <input type="text" name="un" size="20" maxlength="30"> 
+<br><br>
+<label>MIDDLE NAME:</label> 
+    <input type="text" name="un" size="20" maxlength="30">
+<br><br> 
+<label>LAST NAME:</label>
+    <input type="text" name="un" size="20" maxlength="30">
+<br><br> 
+<label>COURSE :</label>
+        <select>
+            <option selected disabled>Select one</option>
+            <option value="bt">BTECH</option> 
+            <option value="mt">MTECH</option>
+        </select>
+<BR><BR> 
+<label>Gender:</label>    <BR>
+    <input type="radio" name="gender"> Male <br>
+    <input type="radio" name="gender"> Female <br> 
+    <input type="radio" name="gender"> Other <br>
+    <br><br>
+<label>E-Mail:</label>
+    <input type="text" name="mail" placeholder="Email" size="20" maxlength="30">
+<br><br>
+<label>ADDRESS:</label>
+    <input type="text" name="loc" placeholder="Address" size="20"
+maxlength="30"> <br><br>
+<label>MOBILE NO:</label>
+    <input type="text" name="phno" placeholder="Contact Number"
+size="20" maxlength="30"> <br><br>
+<label>PASSWORD:</label>
+    <input type="password" name="pwd" placeholder="password"
+size="20" maxlength="30"> <br><br>
+<label> RE-TYPE PASSWORD:</label>
+    <input type="password" name="cpwd" placeholder="Confirm password" size="20" maxlength="30">
+<br><br>
+    <input style="margin-left: 150px " type="submit" value="SUBMIT">
+&nbsp&nbsp&nbsp<input type="reset" value="CLEAR">
+</form>
+</body>
+</html>
